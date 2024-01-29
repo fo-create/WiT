@@ -333,7 +333,7 @@ class Mlp(nn.Module):
 
 
 ###### WiT-Wavelet Attention ######
-
+！！！改动位置，这是个注意力创新？ 
 class Attention(nn.Module):
     def __init__(self, dim, num_heads, sr_ratio, qkv_bias=False, qk_scale=None, attn_drop=0., proj_drop=0.):
         super().__init__()
